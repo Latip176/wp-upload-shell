@@ -14,7 +14,7 @@ except ModuleNotFoundError:
 try:
     from bs4 import BeautifulSoup
 except ModuleNotFoundError:
-    os.system("pip install requests")
+    os.system("pip install bs4")
     from bs4 import BeautifulSoup
 
 os.system("clear||cls")
